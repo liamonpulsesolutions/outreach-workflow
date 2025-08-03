@@ -1,0 +1,93 @@
+{
+  "base_search_params": {
+    "person_titles": [
+      "Owner",
+      "Managing Director",
+      "CEO",
+      "Managing Partner",
+      "Founder",
+      "Executive Director",
+      "President"
+    ],
+    "person_seniorities": [
+      "owner",
+      "founder",
+      "partner",
+      "head",
+      "c_suite"
+    ],
+    "contact_email_status": [
+      "verified",
+      "valid"
+    ],
+    "organization_num_employees_ranges": [
+      "1,10",
+      "11,20",
+      "21,50",
+      "51,100",
+      "101,200"
+    ]
+  },
+  "us_industries": {
+    "manufacturing": {
+      "keywords": "manufacturing factory production industrial engineering",
+      "target_revenue": [
+        "1M-5M",
+        "5M-20M"
+      ],
+      "priority": 1
+    },
+    "distribution": {
+      "keywords": "wholesale distribution supply chain logistics freight",
+      "target_revenue": [
+        "5M-20M"
+      ],
+      "priority": 1
+    },
+    "business_services": {
+      "keywords": "business consulting services B2B professional advisory",
+      "target_revenue": [
+        "1M-10M"
+      ],
+      "priority": 2
+    },
+    "saas": {
+      "keywords": "software as a service SaaS B2B cloud",
+      "priority": 2,
+      "target_revenue": [
+        "1M-20M"
+      ]
+    }
+  },
+  "us_metro_areas": {
+    "northeast": {
+      "cities": [
+        "New York",
+        "Boston",
+        "Philadelphia"
+      ],
+      "states": [
+        "NY",
+        "MA",
+        "PA"
+      ]
+    },
+    "texas": {
+      "cities": [
+        "Houston",
+        "Dallas",
+        "Austin"
+      ],
+      "states": [
+        "TX"
+      ]
+    }
+  },
+  "search_strategies": {
+    "broad": {
+      "description": "Wide net for initial testing",
+      "per_page": 10,
+      "min_icp_score": 60
+    }
+  }
+}
